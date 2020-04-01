@@ -29,7 +29,7 @@ ul,li{
 	overflow: hidden;
 	float: left;
 }
-.box>span{
+.left{
 	display: block;
 	width: 30px;
 	height: 50px;
@@ -43,11 +43,22 @@ ul,li{
 	position: absolute;
 	/* display: none; */
 	opacity: 0;
-}
-#left{
 	left: 30px;
 }
-#right{
+.right{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
 	right: 30px;
 }
 .nav{
